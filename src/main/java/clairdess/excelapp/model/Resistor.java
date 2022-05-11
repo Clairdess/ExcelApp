@@ -43,6 +43,74 @@ public class Resistor {
         this.OperatingTemperature = operatingTemperature;
     }
 
+    public String getName() {
+        return Name;
+    }
+
+    public String getPrice() {
+        return Price;
+    }
+
+    public String getStock() {
+        return Stock;
+    }
+
+    public String getSupplier() {
+        return Supplier;
+    }
+
+    public String getMinQty() {
+        return MinQty;
+    }
+
+    public String getSeries() {
+        return Series;
+    }
+
+    public String getPackage() {
+        return Package;
+    }
+
+    public String getPart_status() {
+        return Part_status;
+    }
+
+    public String getCircuitType() {
+        return CircuitType;
+    }
+
+    public String getResistance() {
+        return Resistance;
+    }
+
+    public String getNumberOfResistors() {
+        return NumberOfResistors;
+    }
+
+    public String getResistorsMatchingRatio() {
+        return ResistorsMatchingRatio;
+    }
+
+    public String getResistorRatioDrift() {
+        return ResistorRatioDrift;
+    }
+
+    public String getNumberOfPins() {
+        return NumberOfPins;
+    }
+
+    public String getPowerPerElement() {
+        return PowerPerElement;
+    }
+
+    public String getTemperatureCoefficient() {
+        return TemperatureCoefficient;
+    }
+
+    public String getOperatingTemperature() {
+        return OperatingTemperature;
+    }
+
     @Override
     public String toString() {
         return "Resistor{" +

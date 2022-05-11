@@ -1,4 +1,7 @@
 package clairdess.excelapp.repo;
 
-public interface ResistorRepo {
+import clairdess.excelapp.entity.ResistorEntity;
+import org.springframework.data.repository.CrudRepository;
+
+public interface ResistorRepo extends CrudRepository<ResistorEntity,Long> {
 }
